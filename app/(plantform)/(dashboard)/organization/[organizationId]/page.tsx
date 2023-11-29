@@ -1,7 +1,11 @@
-const OrganizationIdPage = () => {
+
+const OrganizationIdPage = async () => {
+
     return (
-        <div>123</div>
-    );
+        <div>
+            <h1>OrganizationIdPage</h1>
+        </div>
+    )
 }
 
 export default OrganizationIdPage;
