@@ -1,9 +1,9 @@
-
+import { Info } from "./_components/info";
 const OrganizationIdPage = async () => {
 
     return (
-        <div>
-            <h1>OrganizationIdPage</h1>
+        <div className="w-full mb-20">
+            <Info />
         </div>
     )
 }
