@@ -44,7 +44,7 @@ export const Sidebar = ({
 
             return acc;
         }, []);
-
+    console.log('111', defaultAccordionValue)
 
     const onExpand = (id: string) => {
         setExpanded((curr) => ({

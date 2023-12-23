@@ -12,7 +12,7 @@ export const FormErrors = ({
     if (!errors) {
         return null;
     }
-
+    console.log('form-error', errors);
     return (
         <div
             id={`${id}-error`}
